@@ -95,9 +95,9 @@ class TicTacToe
   end #ends #current_player  
   
   
-  
   def won?
     
+    #have to use if statement (unlike in the procedural tictactoe) because it should return combo. Not true or false.
     WIN_COMBINATIONS.find do |combo|
         if  
           @board[combo[0]] == @board[combo[1]] && #=> true
