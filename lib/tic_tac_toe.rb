@@ -105,7 +105,7 @@ class TicTacToe
           position_taken?( combo[0] ) #true
           return combo
       
-        end #ends ifstatement
+        end #ends if statement
     
     end #ends iteration
     
