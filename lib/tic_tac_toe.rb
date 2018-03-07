@@ -104,9 +104,8 @@ class TicTacToe
           @board[combo[1]] == @board[combo[2]] && # true
           position_taken?( combo[0] ) #true
           return combo
-        else
-          return false
-        end #ends if/else statement
+      
+        end #ends ifstatement
     
     end #ends iteration
     
