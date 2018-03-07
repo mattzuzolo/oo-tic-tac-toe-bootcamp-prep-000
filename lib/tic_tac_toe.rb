@@ -115,9 +115,7 @@ class TicTacToe
     @board.none? {|index| index == " "}
   end #ends #full?
   
-  
-  
-  
+
   def draw?
     
     if (won? == nil) && (full? == true)
