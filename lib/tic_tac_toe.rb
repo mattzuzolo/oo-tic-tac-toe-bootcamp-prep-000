@@ -111,8 +111,6 @@ class TicTacToe
   end #ends #won?
   
   
-  
-  
   def full?
     @board.none? {|index| index == " "}
   end #ends #full?
