@@ -156,6 +156,10 @@ class TicTacToe
     end
     
     if won?
+      puts "Congratulations #{winner(board)}!"
+    elsif draw?
+      puts "Cat's Game!"
+    end #end if/elsif statement
       
   
   
