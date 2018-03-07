@@ -155,9 +155,6 @@ class TicTacToe
     end #ends if/elsif/else statement
   end #ends #winner  
     
-    
-    
-  end #ends #winner
       
         
   
