@@ -123,7 +123,6 @@ class TicTacToe
     else
       return false
     end #ends if/else statement
-    
   end #ends #draw?  
   
   def over?
