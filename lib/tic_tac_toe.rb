@@ -161,9 +161,7 @@ class TicTacToe
       puts "Cat's Game!"
     end #end if/elsif statement
       
-  
-  
-  end  
+  end #ends #play 
   
 end #ends "class TicTacToe"
 
